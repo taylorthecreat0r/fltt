@@ -1,0 +1,35 @@
+alfa
+הביטה
+Tadeusz
+Jacek
+
+# def compute_prefix_function(pattern: str):
+#     m = len(pattern)
+#     π = {}
+#     π[0] = -1
+#     k = -1
+
+#     for q in range(1, m):
+#         while k > -1 and pattern[k+1] != pattern[q]:
+#             k = π[k]
+
+#         if pattern[k+1] == pattern[q]:
+#             k += 1
+
+#         π[q] = k
+
+#     return π
+
+#tests data
+# alphabets = [
+#     ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's','t', 'u', 'v', 'w', 'x', 'y', 'z'],
+#     ['ρ', 'ω', 'r', 'o', 'ろ']
+# ]
+
+# tests = [
+#     ('ab', 'aksjhgsfhjkaabalgruehfalabslerguhseab'),
+#     ('jftt', 'aksjhgsfhjkaabalgruehfalabslerguhseab'),
+#     ('seab', 'aksjhgsfhjkaabalgruehfalabslerguhseab'),
+#     ('alfa', 'aksjhgsfhjkaabalgralfauehfalabsleralfaalfaalfaalfaalfaalfaalfaalfaalfaalfaalfaalfaalfaalfaalfaalfaalfaalfaalfagufsdglkjhfglskjhfglsfjghlalfafjghsdlfgvalfahsvcbknseglfbsjhdlfalfaalfaalfakbjhbqwrpeoifsahseab'),
+#     ('ろω', "roωrrρrωrωrωrrωrろωorrρρo"),
+# ]
